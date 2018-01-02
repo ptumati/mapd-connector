@@ -116,3 +116,10 @@
   * @property {Number} POLYGON=1
   */
 
+/**
+* The types of the completion hint response object
+* @typedef {completion_hints} completion_hints
+* @property {TSessionId} session
+* @property {String} sql
+* @property {Number} cursor
+*/
